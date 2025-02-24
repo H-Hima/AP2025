@@ -6,8 +6,8 @@ public class Human {
     Integer gitTest;
     Double gitDoubleTest;
 
-    public Human(String name, Integer ID) {
-        this.ID=ID;
+    public Human(String name, Integer id) {
+        this.ID=id;
         this.name=name;
         height=100.0;
         rightFoot = new Foot();
